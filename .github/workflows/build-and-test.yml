@@ -38,5 +38,5 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          push: false
-          tags: jstafford3344/first-gh-action:latest
+          push: true
+          tags: ghcr.io/jstafford3344/first-gh-action:latest
